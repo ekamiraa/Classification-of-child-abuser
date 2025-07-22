@@ -37,8 +37,8 @@ This repository contains the final project (undergraduate thesis) of Eka Mira No
 
 Screenshot of the application:
 
-![Home](ui/home.png)
-![Dataset](ui/dataset.png)
-![Research](ui/research.png)
+![Home](UI/home.png)
+![Dataset](UI/dataset.png)
+![Research](UI/research.png)
 
-> ℹ️ Screenshots are available in the `/ui` folder
+> ℹ️ Screenshots are available in the `/UI` folder
