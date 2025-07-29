@@ -12,6 +12,8 @@ with open('Result/without_Val/NeuralNetwork_Model_Z2.pkl', 'rb') as f:
     print("Neural Network Model Loaded")
 
 # Preprocessing manual (sesuai pipeline)
+import nltk
+from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
