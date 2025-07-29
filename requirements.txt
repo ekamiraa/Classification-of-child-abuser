@@ -1,0 +1,8 @@
+streamlit
+pandas
+scikit-learn
+Sastrawi
+nltk
+numpy
+pickle
+re
