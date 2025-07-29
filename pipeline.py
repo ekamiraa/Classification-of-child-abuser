@@ -20,6 +20,7 @@ from nltk.corpus import stopwords
 import re
 
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
