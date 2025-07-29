@@ -6,9 +6,8 @@ import pandas as pd
 df = pd.read_csv('Result/All_Process/Test_Data.csv')  # termasuk kolom 'Berita' dan 'word2vec_vector'
 print("DataFrame Loaded")
 
-
 # Load Neural Network Model
-with open('Result/without_val/NeuralNetwork_Model_Z2.pkl', 'rb') as f:
+with open('Result/without_Val/NeuralNetwork_Model_Z2.pkl', 'rb') as f:
     nn_model_Z2 = pickle.load(f)
     print("Neural Network Model Loaded")
 
@@ -31,7 +30,6 @@ def stem_words(words):
         else:
             stemmed_words.append(stemmer.stem(word))  # Stem other words
     return stemmed_words
-
 
 def clean_text(text):
     cleaned_text = re.sub(r'[^a-zA-Z\s]', '', text) # remove punctuation
