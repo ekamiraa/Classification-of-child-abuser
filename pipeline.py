@@ -17,6 +17,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import re
 
+nltk.download('stopwords')
+
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 stop_words = set(stopwords.words('indonesian'))
